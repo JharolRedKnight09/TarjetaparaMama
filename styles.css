@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffe6f2;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    background-color: #ff99cc;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.cover {
+    font-size: 20px;
+    padding: 20px;
+    background-color: #ff66b2;
+    color: white;
+}
+
+.message {
+    display: none;
+    font-size: 18px;
+    padding: 20px;
+}
